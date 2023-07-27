@@ -12,7 +12,7 @@ function CCfront(props) {
         </div>
         <p className='card-number'>{props.cardNumber}</p>
         <div className='bottom'>
-        <p className='name'>{props.cardName}</p>
+        <p className='name'>{props.cardHolder}</p>
         <p className='date'>{props.date}</p>
         </div>
     </div>
