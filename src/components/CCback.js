@@ -1,11 +1,11 @@
 import React from 'react'
 import ccback from '../images/ccback.png'
 import './CCback.css'
-function CCback() {
+function CCback(props) {
   return (
     <div className='ccback'>
         <img src= {ccback} alt='ccback' />
-        <p>000</p>
+        <p>{props.cvc}</p>
     </div>
   )
 }
