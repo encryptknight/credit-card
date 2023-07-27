@@ -80,7 +80,7 @@ function App() {
       <div className='form'>
         <form onSubmit={validateForm}>
           <label>CARDHOLDER NAME</label>
-          <input type='text' id='card-name' placeholder='e.g. Jane Appleseed' name='cardHolder' ref={cardHolderRef} /><br/>
+          <input type='text' id='card-name' maxLength={16} placeholder='e.g. Jane Appleseed' name='cardHolder' ref={cardHolderRef} /><br/>
           {!nameFlag?<p className='warn'>Cardholder name required</p>:''}
           
           <br/>
